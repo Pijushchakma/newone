@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+	margin-right: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: purple;
+	padding:  10px 40px;
+	border: 1px solid transparent;
+	transition: 0.6s ease; 
+	background-color: purple;
+	color: white;
+	border-radius: 10px;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+
+}
+p{
+	color: white;
+}
+.hmm{
+	color: white;
+	font-size: 60px;
+	padding: 60px;
+	text-align: center;
+
+}
+.hmm1{
+ color: blue;
+ font-size: 80px;
+ text-align: center;
+}
+.hmm2{
+	color: purple;
+ font-size: 80px;
+ text-align: center;
+ animation:blinkingText 1.2s infinite;
+
+}
+@keyframes blinkingText{
+    0%{     color: white;    }
+    49%{    color: yellow; }
+    60%{    color: red; }
+    99%{    color:blue;  }
+    100%{   color: white;    }
+}
